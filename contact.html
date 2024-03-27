@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./news.html">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+    </ul>
+    <hr />
+    <h1>Cantact page</h1>
+    <hr />
+    <h3>Please fill-in from</h3>
+    <from action="./index.html" method="POST">
+        <fieldset>
+        <legend>User info</legend>
+        <label> First Name:
+            <input type="text" name="fname" />
+        </label><br /><br />
+        <label> Last Name:
+            <input type="text" name="fname" />
+        </label><br /><br />
+        <fieldset>
+        <label>
+            <input type="radio" name="Course" value="html">HTML
+        </label>
+        <label>
+            <input type="radio" name="Course" value="css">CSS
+        </label>
+        <label>
+            <input type="radio" name="Course" value="js">Javascript
+        </label>
+        </fieldset>
+        <fieldset>
+        <legend>Framework</legend>
+        <label>
+            <input type="radio" name="framework" value="react">React
+        </label>
+        <label>
+            <input type="radio" name="framework" value="Angular">Angular
+        </label>
+        </fieldset>
+        <br />
+
+        <button>OK</button>
+        <button type="button">OK2</button>
+        <input type="submit" value="submit" />
+    </from>
+</body>
+
+</html>
